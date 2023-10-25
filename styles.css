@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/06/05/Green-mint-lime-waves-silky-background-Graphics-71409336-1-580x383.png'); 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bnp {
+ font-family: monospace;
+ 
+}
+
+.signup-form {
+    background: rgba(235, 211, 132, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #f08a15a6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
